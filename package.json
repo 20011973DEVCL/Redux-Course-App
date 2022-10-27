@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "start-watch": "ng serve --watch --port=4200",
-    "start-watch-open": "ng serve --watch --open --aot",
+    "start-watch-open": "ng serve --watch --open",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
