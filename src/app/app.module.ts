@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HijoComponent } from './contador/hijo/hijo.component';
 import { NietoComponent } from './contador/nieto/nieto.component';
+import { StoreModule } from '@ngrx/store';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { NietoComponent } from './contador/nieto/nieto.component';
     NietoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    StoreModule.forRoot({}, {})
   ],
   providers: [],
   bootstrap: [AppComponent]
