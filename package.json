@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "start-watch": "ng serve --watch --port=4200",
     "start-watch-open": "ng serve --watch --open --aot",
     "build": "ng build",
